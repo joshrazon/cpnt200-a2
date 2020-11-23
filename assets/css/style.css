@@ -1,0 +1,148 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Index */
+.flex-container{
+  width: 100%;
+  
+  margin-top: 2em;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.flex-container h1 {
+  margin-bottom: 0.8em;
+}
+
+.customers {
+  width: max(40%, 244px);
+ 
+  border: 1px solid black;
+  border-radius: 4px;
+ 
+  box-shadow: 0px 5px 5px #888888;
+  
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.customers h2 {
+  margin-bottom: 5px;
+}
+
+/* <a> styles reset*/
+a,
+a:visited,
+a:link,
+a:active,
+a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+/* <a>:hover */
+a:hover {
+  color: #5bc0de;
+  text-decoration: underline;
+}
+
+/* Customer */
+.customer-container {
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer {
+  width: 60%;
+
+  border: 1px solid black;
+  border-radius: 4px;
+
+  box-shadow: 0px 5px 5px #888888;
+
+  margin-top: 2em;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: calc(12px + (26 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.customer h1 {
+  text-decoration: underline;
+}
+
+.customer-info {
+  width: 100%;
+
+  margin-top: .8em;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  list-style-type: none;
+}
+
+.info li {
+  padding-bottom: 10px;
+}
+
+.val li {
+  text-decoration: underline;
+}
+
+/* back to home button */
+.customer button {
+  border: 1px solid #0088ff;
+  border-radius: 5%;
+
+  box-shadow: 0px 5px 5px #888888;
+
+  margin-top: 0.8em;
+  padding: 15px 20px;
+  
+  background-color: #0088ff;
+
+  align-self: flex-start;
+  
+  color: white;
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+  
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.customer button:hover {
+  background-color: rgb(0, 174, 255);
+}
+
+.customer button:active {
+  transform: scale(0.9);
+}
+
+
+/* responsive customer page */
+@media(max-width: 675px) {
+  .customer {
+    width: 90%;
+  }
+
+  .customer button {
+    padding: 5px 10px;
+  }
+}
