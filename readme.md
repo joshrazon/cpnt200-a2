@@ -8,6 +8,7 @@
 
 - ### css-tricks for [fluid typography](https://css-tricks.com/snippets/css/fluid-typography/)
 
-- ### [Net Ninja PHP Tutorial Playlist](https://www.youtube.com/watch?v=pWG7ajC_OVo&list=PL4cUxeGkcC9gksOX3Kd9KPo-O68ncT05o) (helped with php and sql syntax)
+- ### [Net Ninja PHP Tutorial Playlist](https://www.youtube.com/watch?v=pWG7ajC_OVo&list=PL4cUxeGkcC9gksOX3Kd9KPo-O68ncT05o)
 
-- ### [Tony Grimes](https://github.com/acidtone) ([/rentals](https://github.com/sait-wbdv/php-sample-code/tree/main/php-db/rentals) php-sample-code)
+- ### [Tony Grimes](https://github.com/acidtone) 
+  - [/rentals](https://github.com/sait-wbdv/php-sample-code/tree/main/php-db/rentals) php-sample-code
